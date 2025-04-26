@@ -7,7 +7,6 @@ import node from "@astrojs/node";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), icon()],
-  output: "server",
   site: "https://muhdakmaru.github.io",
   adapter: node({
     mode: "standalone",
